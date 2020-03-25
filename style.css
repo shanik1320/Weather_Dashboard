@@ -1,0 +1,10 @@
+/*add color and center the header*/
+h1 {
+    background-color:grey;
+    padding: 0;
+    margin: 0;
+    height: 100px;
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
