@@ -14,36 +14,37 @@
 
 <body>
     <!--makking the header-->
+    <nav class="navbar navbar-dark bg-dark">
+       <a class="navbar-brand mx-auto" href="#">Weather Dashboard</a>
+            
+    </nav>
+        
+    <br>
     <div class="container">
-        <div class="header">
-            <h1>Weather Dashboard</h1>
-        </div>
-        <div>
-            <br>
-            <p>search for a city</p>
+        <div class="row">
+            <div class=col-md-3 id="side-bar">
+            <h3>search for a city</h3>
             <!--add search bar from bootstrap-->
-            <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
-            <br>
 
-            <div class="card" style="width: 18rem;">
-                <ul class="list-group list-group-flush">
-                  <li class="list-group-item">Cras justo odio</li>
-                  <li class="list-group-item">Dapibus ac facilisis in</li>
-                  <li class="list-group-item">Vestibulum at eros</li>
-                </ul>
-              </div>
+                <div class="card mt-2" style="width: 16rem; display: none" id="list">
+                    <ul class="list-group">
+                    </ul>
+                </div>
+                </div>
+                
+                </div>
+                </div>
 
+        
 
-        </div>
-    </div>
-
+            
 
 
- <script 
-src="https://code.jquery.com/jquery-3.4.1.min.js"
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
 integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
 crossorigin="anonymous"></script>
 <script src="script.js"></script>
